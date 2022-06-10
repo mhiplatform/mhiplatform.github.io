@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+   <channel>
+      <title>MHI Platform, Weather Conditions</title>
+      <link></link>
+      <description>Current conditions, and daily, monthly, and yearly summaries</description>
+      <language>en-us</language>
+      <pubDate>&#1087;&#1090;, 10 &#1095;&#1077;&#1088; 2022 11:10:00 MSK</pubDate>
+
+      <lastBuildDate>&#1087;&#1090;, 10 &#1095;&#1077;&#1088; 2022 11:10:00 MSK</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>weewx 4.5.1</generator>
+      <ttl>1,000000 minute</ttl>
+      
+      <item>
+         <title>Weather Conditions at 10.06.22 11:10:00</title>
+         <link></link>
+         <description>
+           Outside temperature: 20,1&#176;C; 
+           Barometer: 758,8 mmHg; 
+           Wind: 4,9 m/s from 90&#176;; 
+           Rain rate: 0,0 mm/h; 
+           Inside temperature: 27,9&#176;C
+         </description>
+         <pubDate>&#1087;&#1090;, 10 &#1095;&#1077;&#1088; 2022 11:10:00 MSK</pubDate>
+	     <geo:lat>44.392719</geo:lat>
+    	 <geo:long>33.984499</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Time:                10.06.22 11:10:00<br/>
+             Outside Temperature: 20,1&#176;C<br/>
+             Inside Temperature:  27,9&#176;C<br/>
+             Wind Chill:          20,1&#176;C<br/>
+             Heat Index:          20,4&#176;C<br/>
+             Dewpoint:            17,9&#176;C<br/>
+             Humidity:            87%<br/>
+             Barometer:           758,8 mmHg<br/>
+             Wind:                4,9 m/s from 90&#176;<br/>
+             Rain Rate:           0,0 mm/h<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Daily Weather Summary as of 10.06.22 11:10:00</title>
+         <link></link>
+         <description>
+	        Min outside temperature: 18,6&#176;C at 05:08:13;
+         	Max outside temperature: 20,1&#176;C at 09:06:19;
+	        Min inside temperature:  22,5&#176;C at 06:00:01;
+	        Max inside temperature:  27,9&#176;C at 11:06:59;
+	        Min barometer:           756,4 mmHg at 00:16:00;
+	        Max barometer:           758,8 mmHg at 10:58:01;
+            Max wind :               5,8 m/s from 86&#176; at 10:23:03;
+            Rain today:              0,3 mm
+         </description>
+         <pubDate>&#1087;&#1090;, 10 &#1095;&#1077;&#1088; 2022 11:10:00 MSK</pubDate>
+	     <geo:lat>44.392719</geo:lat>
+    	 <geo:long>33.984499</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Day:                     10 &#1095;&#1077;&#1088; 2022<br/>
+	         Min Outside Temperature: 18,6&#176;C at 05:08:13<br/>
+	         Max Outside Temperature: 20,1&#176;C at 09:06:19<br/>
+	         Min Inside Temperature:  22,5&#176;C at 06:00:01<br/>
+	         Max Inside Temperature:  27,9&#176;C at 11:06:59<br/>
+	         Min Barometer:           756,4 mmHg at 00:16:00<br/>
+	         Max Barometer:           758,8 mmHg at 10:58:01<br/>
+             Max Wind :               5,8 m/s from 86&#176; at 10:23:03<br/>
+             Rain today:              0,3 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Monthly Weather Summary as of 10.06.22 11:10:00</title>
+         <link></link>
+         <description>
+	        Min outside temperature: 16,9&#176;C at 01.06.22 04:27:56;
+         	Max outside temperature: 30,0&#176;C at 05.06.22 17:27:14;
+	        Min inside temperature:  21,1&#176;C at 01.06.22 05:46:59;
+	        Max inside temperature:  38,1&#176;C at 04.06.22 18:23:00;
+	        Min barometer:           754,6 mmHg at 09.06.22 07:02:01;
+	        Max barometer:           761,3 mmHg at 02.06.22 12:44:01;
+            Max wind :               21,9 m/s from 82&#176; at 09.06.22 09:34:17;
+            Rain total for month:    2,0 mm
+         </description>
+         <pubDate>&#1087;&#1090;, 10 &#1095;&#1077;&#1088; 2022 11:10:00 MSK</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Month:                   &#1095;&#1077;&#1088;&#1074;&#1085;&#1103; 2022<br/>
+	         Max Outside Temperature: 30,0&#176;C at 05.06.22 17:27:14<br/>
+	         Min Outside Temperature: 16,9&#176;C at 01.06.22 04:27:56<br/>
+	         Max Inside Temperature:  38,1&#176;C at 04.06.22 18:23:00<br/>
+	         Min Inside Temperature:  21,1&#176;C at 01.06.22 05:46:59<br/>
+	         Min Barometer:           754,6 mmHg at 09.06.22 07:02:01<br/>
+	         Max Barometer:           761,3 mmHg at 02.06.22 12:44:01<br/>
+             Max Wind :               21,9 m/s from 82&#176; at 09.06.22 09:34:17<br/>
+             Rain total for month:    2,0 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Yearly Weather Summary as of 10.06.22 11:10:00</title>
+         <link></link>
+         <description>
+	        Min outside temperature: -39,9&#176;C at 09.03.22 17:13:13;
+         	Max outside temperature: 30,0&#176;C at 05.06.22 17:27:14;
+	        Min inside temperature:  -0,1&#176;C at 19.01.22 06:26:59;
+	        Max inside temperature:  38,1&#176;C at 04.06.22 18:23:00;
+	        Min barometer:           747,1 mmHg at 08.04.22 06:14:02;
+	        Max barometer:           775,7 mmHg at 14.03.22 22:38:06;
+            Max wind :               45,6 m/s from 0&#176; at 05.05.22 15:15:00;
+            Rain total for year:     151,4 mm
+         </description>
+         <pubDate>&#1087;&#1090;, 10 &#1095;&#1077;&#1088; 2022 11:10:00 MSK</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Year:                    2022<br/>
+	         Max Outside Temperature: 30,0&#176;C at 05.06.22 17:27:14<br/>
+	         Min Outside Temperature: -39,9&#176;C at 09.03.22 17:13:13<br/>
+	         Max Inside Temperature:  38,1&#176;C at 04.06.22 18:23:00<br/>
+	         Min Inside Temperature:  -0,1&#176;C at 19.01.22 06:26:59<br/>
+	         Min Barometer:           747,1 mmHg at 08.04.22 06:14:02<br/>
+	         Max Barometer:           775,7 mmHg at 14.03.22 22:38:06<br/>
+             Max Wind :               45,6 m/s from 0&#176; at 05.05.22 15:15:00<br/>
+             Rain total for year:     151,4 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+   </channel>
+</rss>

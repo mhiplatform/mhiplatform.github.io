@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MHI Platform Celestial Details</title>
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="seasons.css"/>
+    <script src="seasons.js"></script>
+    <style>
+#celestial_widget th {
+  font-weight: normal;
+  text-align: right;
+}
+#celestial_widget .widget_title {
+  margin-bottom: 25px;
+}
+#celestial_widget .label {
+  font-size: 100%;
+}
+#celestial_widget .data {
+  font-size: 100%;
+}
+    </style>
+  </head>
+
+  <body>
+
+<div id="title_bar">
+  <div id="title">
+    <h1 class="page_title">MHI Platform</h1>
+    <p class="lastupdate">10.06.22 11:10:00</p>
+  </div>
+  <img src="sop.png" />
+
+  <div id="rss_link"><a href="wgmonitor1.png">Wave Gauge (1)</a></div>
+  <div id="rss_link"><a href="wgmonitor6.png">Wave Gauge (6)</a></div>
+   
+  <div id="reports">
+    Monthly Reports:
+    <select name="reports" onchange="openTabularFile(value)">
+      <option value="2021-06">2021-06</option>
+      <option value="2021-07">2021-07</option>
+      <option value="2021-08">2021-08</option>
+      <option value="2021-09">2021-09</option>
+      <option value="2021-10">2021-10</option>
+      <option value="2021-11">2021-11</option>
+      <option value="2021-12">2021-12</option>
+      <option value="2022-01">2022-01</option>
+      <option value="2022-02">2022-02</option>
+      <option value="2022-03">2022-03</option>
+      <option value="2022-04">2022-04</option>
+      <option value="2022-05">2022-05</option>
+      <option value="2022-06">2022-06</option>
+      <option selected>- Select Month -</option>
+    </select>
+    <br/>
+    Yearly Reports:
+    <select name="reports" onchange="openTabularFile(value)">
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option selected>- Select Year -</option>
+    </select>
+    <br/>
+  </div>
+</div>
+    
+    <div id="contents">
+      <p><a href="index.html">&#10096; Current Conditions</a></p>
+
+      <div id="widget_group">
+
+
+<div id="celestial_widget" class="widget">
+  <div class="widget_title">
+    Celestial
+  </div>
+  <div class="widget_contents">
+    <p>Install <em>pyephem</em> for detailed celestial timings.</p>
+  </div>
+</div>
+      </div>
+
+
+<div id='identifier_widget' class="widget">
+  <div class="widget_title">
+  </div>
+  <div class="widget_contents">
+  <table>
+    <tr>
+      <td class="label">Latitude</td>
+      <td class="data">44&deg; 23.56' N</td>
+    </tr>
+    <tr>
+      <td class="label">Longitude</td>
+      <td class="data">033&deg; 59.07' E</td>
+    </tr>
+    <tr>
+      <td class="label">Altitude</td>
+      <td class="data">23 meters</td>
+    </tr>
+    <tr>
+      <td class="label">WeeWX</td>
+      <td class="data">4.5.1</td>
+    </tr>
+  </table>
+  </div>
+
+</div>
+    </div>
+
+  </body>
+</html>
